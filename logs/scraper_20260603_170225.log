@@ -1,0 +1,11 @@
+2026-06-03 17:02:25,202 INFO Страница 1: https://auto.drom.ru/?state=1&page=1
+2026-06-03 17:02:25,207 DEBUG Starting new HTTPS connection (1): auto.drom.ru:443
+2026-06-03 17:02:25,803 DEBUG https://auto.drom.ru:443 "GET /?state=1&page=1 HTTP/1.1" 200 None
+2026-06-03 17:02:28,182 INFO Страница 2: https://auto.drom.ru/?state=1&page=2
+2026-06-03 17:02:28,543 DEBUG https://auto.drom.ru:443 "GET /?state=1&page=2 HTTP/1.1" 200 None
+2026-06-03 17:02:30,317 INFO Страница 3: https://auto.drom.ru/?state=1&page=3
+2026-06-03 17:02:30,821 DEBUG https://auto.drom.ru:443 "GET /?state=1&page=3 HTTP/1.1" 200 None
+2026-06-03 17:02:32,076 INFO Страница 4: https://auto.drom.ru/?state=1&page=4
+2026-06-03 17:02:32,360 DEBUG https://auto.drom.ru:443 "GET /?state=1&page=4 HTTP/1.1" 200 None
+2026-06-03 17:02:34,107 INFO Страница 5: https://auto.drom.ru/?state=1&page=5
+2026-06-03 17:02:34,348 DEBUG https://auto.drom.ru:443 "GET /?state=1&page=5 HTTP/1.1" 200 None

@@ -1,0 +1,3 @@
+2026-06-03 19:14:48,223 INFO batch 0 is loading
+2026-06-03 19:14:48,228 DEBUG Starting new HTTPS connection (1): auto.drom.ru:443
+2026-06-03 19:14:53,426 WARNING Ошибка запроса страницы 0: HTTPSConnectionPool(host='auto.drom.ru', port=443): Max retries exceeded with url: /?state=1&page=0 (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1032)')))

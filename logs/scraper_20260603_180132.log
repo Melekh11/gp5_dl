@@ -1,0 +1,18 @@
+2026-06-03 18:01:32,558 INFO batch 0 is loading
+2026-06-03 18:01:32,561 DEBUG Starting new HTTPS connection (1): auto.drom.ru:443
+2026-06-03 18:01:33,174 DEBUG https://auto.drom.ru:443 "GET /?state=1&page=0 HTTP/1.1" 200 None
+2026-06-03 18:01:34,978 DEBUG https://auto.drom.ru:443 "GET /?state=1&page=1 HTTP/1.1" 200 None
+2026-06-03 18:01:37,140 DEBUG https://auto.drom.ru:443 "GET /?state=1&page=2 HTTP/1.1" 200 None
+2026-06-03 18:01:40,007 DEBUG https://auto.drom.ru:443 "GET /?state=1&page=3 HTTP/1.1" 200 None
+2026-06-03 18:01:41,330 DEBUG https://auto.drom.ru:443 "GET /?state=1&page=4 HTTP/1.1" 200 None
+2026-06-03 18:01:43,414 DEBUG https://auto.drom.ru:443 "GET /?state=1&page=5 HTTP/1.1" 200 None
+2026-06-03 18:01:46,146 DEBUG https://auto.drom.ru:443 "GET /?state=1&page=6 HTTP/1.1" 200 None
+2026-06-03 18:01:48,610 DEBUG https://auto.drom.ru:443 "GET /?state=1&page=7 HTTP/1.1" 200 None
+2026-06-03 18:01:50,553 DEBUG https://auto.drom.ru:443 "GET /?state=1&page=8 HTTP/1.1" 200 None
+2026-06-03 18:01:52,826 DEBUG https://auto.drom.ru:443 "GET /?state=1&page=9 HTTP/1.1" 200 None
+2026-06-03 18:01:55,160 DEBUG https://auto.drom.ru:443 "GET /?state=1&page=10 HTTP/1.1" 200 None
+2026-06-03 18:01:57,703 DEBUG https://auto.drom.ru:443 "GET /?state=1&page=11 HTTP/1.1" 200 None
+2026-06-03 18:01:59,337 DEBUG https://auto.drom.ru:443 "GET /?state=1&page=12 HTTP/1.1" 200 None
+2026-06-03 18:02:02,127 DEBUG https://auto.drom.ru:443 "GET /?state=1&page=13 HTTP/1.1" 200 None
+2026-06-03 18:02:05,007 DEBUG https://auto.drom.ru:443 "GET /?state=1&page=14 HTTP/1.1" 200 None
+2026-06-03 18:02:07,428 DEBUG https://auto.drom.ru:443 "GET /?state=1&page=15 HTTP/1.1" 200 None
