@@ -1,0 +1,3 @@
+2026-06-05 13:05:32,831 INFO batch 11 is loading
+2026-06-05 13:05:32,835 DEBUG Starting new HTTPS connection (1): auto.drom.ru:443
+2026-06-05 13:05:47,839 WARNING Ошибка запроса страницы 220: HTTPSConnectionPool(host='auto.drom.ru', port=443): Max retries exceeded with url: /?state=1&page=220 (Caused by ConnectTimeoutError(<HTTPSConnection(host='auto.drom.ru', port=443) at 0x104277cb0>, 'Connection to auto.drom.ru timed out. (connect timeout=15)'))

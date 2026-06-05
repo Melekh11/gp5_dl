@@ -1,0 +1,6 @@
+2026-06-05 13:39:01,186 INFO batch 11 is loading
+2026-06-05 13:39:01,190 DEBUG Starting new HTTPS connection (1): auto.drom.ru:443
+2026-06-05 13:39:01,723 DEBUG https://auto.drom.ru:443 "GET /?state=1&page=220 HTTP/1.1" 200 None
+2026-06-05 13:39:02,265 DEBUG https://auto.drom.ru:443 "GET /?state=1&page=221 HTTP/1.1" 200 None
+2026-06-05 13:39:03,279 DEBUG https://auto.drom.ru:443 "GET /?state=1&page=222 HTTP/1.1" 200 None
+2026-06-05 13:39:04,025 DEBUG https://auto.drom.ru:443 "GET /?state=1&page=223 HTTP/1.1" 200 None

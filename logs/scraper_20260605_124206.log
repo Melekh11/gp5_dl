@@ -1,0 +1,14 @@
+2026-06-05 12:42:06,706 INFO batch 0 is loading
+2026-06-05 12:42:06,707 INFO totally scraped 0 posts in batch 0
+2026-06-05 12:42:06,707 INFO got 0 urls on photos total in batch 0
+2026-06-05 12:42:06,707 INFO 0 out of 0 pictures downloaded in batch 0
+2026-06-05 12:42:06,707 INFO batch 1 is loading
+2026-06-05 12:42:06,710 DEBUG Starting new HTTPS connection (1): auto.drom.ru:443
+2026-06-05 12:42:15,171 DEBUG https://auto.drom.ru:443 "GET /?state=1&page=9 HTTP/1.1" 200 None
+2026-06-05 12:42:15,588 INFO totally scraped 29 posts in batch 1
+2026-06-05 12:42:16,010 DEBUG https://auto.drom.ru:443 "GET /moscow/toyota/land_cruiser/359159993.html HTTP/1.1" 200 None
+2026-06-05 12:42:16,033 INFO   post 1/29 batch 1 — found 2 photos | https://auto.drom.ru/moscow/toyota/land_cruiser/359159993.html
+2026-06-05 12:42:16,327 DEBUG https://auto.drom.ru:443 "GET /moscow/lincoln/aviator/165788397.html HTTP/1.1" 200 None
+2026-06-05 12:42:16,344 INFO   post 2/29 batch 1 — found 2 photos | https://auto.drom.ru/moscow/lincoln/aviator/165788397.html
+2026-06-05 12:42:16,772 DEBUG https://auto.drom.ru:443 "GET /zelenogradskiy/bmw/x6/331311407.html HTTP/1.1" 200 None
+2026-06-05 12:42:16,796 INFO   post 3/29 batch 1 — found 2 photos | https://auto.drom.ru/zelenogradskiy/bmw/x6/331311407.html
