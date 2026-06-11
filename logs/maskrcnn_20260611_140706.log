@@ -1,0 +1,197 @@
+2026-06-10 23:25:47
+2026-06-10 20:25:47,817 INFO [epoch 1] step 50/352 | loss_classifier=0.3294 | loss_box_reg=0.2049 | loss_mask=0.5143 | loss_objectness=0.0808 | loss_rpn_box_reg=0.0167 | loss_total=1.1462
+2026-06-10 23:27:39
+2026-06-10 20:27:39,746 INFO [epoch 1] step 100/352 | loss_classifier=0.2725 | loss_box_reg=0.2006 | loss_mask=0.4340 | loss_objectness=0.0637 | loss_rpn_box_reg=0.0151 | loss_total=0.9859
+2026-06-10 23:29:37
+2026-06-10 20:29:37,795 INFO [epoch 1] step 150/352 | loss_classifier=0.2410 | loss_box_reg=0.1879 | loss_mask=0.3978 | loss_objectness=0.0549 | loss_rpn_box_reg=0.0147 | loss_total=0.8962
+2026-06-10 23:31:33
+2026-06-10 20:31:33,137 INFO [epoch 1] step 200/352 | loss_classifier=0.2208 | loss_box_reg=0.1794 | loss_mask=0.3740 | loss_objectness=0.0492 | loss_rpn_box_reg=0.0134 | loss_total=0.8369
+2026-06-10 23:33:25
+2026-06-10 20:33:25,926 INFO [epoch 1] step 250/352 | loss_classifier=0.2072 | loss_box_reg=0.1734 | loss_mask=0.3631 | loss_objectness=0.0514 | loss_rpn_box_reg=0.0140 | loss_total=0.8091
+2026-06-10 23:35:19
+2026-06-10 20:35:19,203 INFO [epoch 1] step 300/352 | loss_classifier=0.1953 | loss_box_reg=0.1673 | loss_mask=0.3533 | loss_objectness=0.0488 | loss_rpn_box_reg=0.0134 | loss_total=0.7781
+2026-06-10 23:37:14
+2026-06-10 20:37:14,889 INFO [epoch 1] step 350/352 | loss_classifier=0.1873 | loss_box_reg=0.1632 | loss_mask=0.3457 | loss_objectness=0.0472 | loss_rpn_box_reg=0.0137 | loss_total=0.7571
+2026-06-10 23:38:49
+2026-06-10 20:38:49,137 INFO Epoch 1: train_loss=0.7576 | val_loss=0.6593 | 805.7s
+2026-06-10 23:38:49
+2026-06-10 20:38:49,614 INFO checkpoint: epoch=1, val_loss=0.6593 -> maskrcnn_cardd_best.pt
+2026-06-10 23:40:54
+2026-06-10 20:40:54,502 INFO [epoch 2] step 50/352 | loss_classifier=0.1413 | loss_box_reg=0.1504 | loss_mask=0.2817 | loss_objectness=0.0276 | loss_rpn_box_reg=0.0114 | loss_total=0.6123
+2026-06-10 23:42:46
+2026-06-10 20:42:46,404 INFO [epoch 2] step 100/352 | loss_classifier=0.1321 | loss_box_reg=0.1411 | loss_mask=0.2758 | loss_objectness=0.0266 | loss_rpn_box_reg=0.0102 | loss_total=0.5857
+2026-06-10 23:44:38
+2026-06-10 20:44:38,954 INFO [epoch 2] step 150/352 | loss_classifier=0.1310 | loss_box_reg=0.1404 | loss_mask=0.2741 | loss_objectness=0.0267 | loss_rpn_box_reg=0.0105 | loss_total=0.5826
+2026-06-10 23:46:32
+2026-06-10 20:46:32,804 INFO [epoch 2] step 200/352 | loss_classifier=0.1292 | loss_box_reg=0.1373 | loss_mask=0.2743 | loss_objectness=0.0274 | loss_rpn_box_reg=0.0106 | loss_total=0.5788
+2026-06-10 23:48:29
+2026-06-10 20:48:29,953 INFO [epoch 2] step 250/352 | loss_classifier=0.1285 | loss_box_reg=0.1367 | loss_mask=0.2751 | loss_objectness=0.0267 | loss_rpn_box_reg=0.0109 | loss_total=0.5779
+2026-06-10 23:50:25
+2026-06-10 20:50:25,119 INFO [epoch 2] step 300/352 | loss_classifier=0.1280 | loss_box_reg=0.1357 | loss_mask=0.2757 | loss_objectness=0.0259 | loss_rpn_box_reg=0.0107 | loss_total=0.5760
+2026-06-10 23:52:18
+2026-06-10 20:52:18,960 INFO [epoch 2] step 350/352 | loss_classifier=0.1269 | loss_box_reg=0.1349 | loss_mask=0.2746 | loss_objectness=0.0254 | loss_rpn_box_reg=0.0107 | loss_total=0.5724
+2026-06-10 23:53:54
+2026-06-10 20:53:54,494 INFO Epoch 2: train_loss=0.5722 | val_loss=0.6161 | 805.8s
+2026-06-10 23:53:54
+2026-06-10 20:53:54,853 INFO checkpoint: epoch=2, val_loss=0.6161 -> maskrcnn_cardd_best.pt
+2026-06-10 23:55:49
+2026-06-10 20:55:49,853 INFO [epoch 3] step 50/352 | loss_classifier=0.1148 | loss_box_reg=0.1231 | loss_mask=0.2521 | loss_objectness=0.0175 | loss_rpn_box_reg=0.0089 | loss_total=0.5164
+2026-06-10 23:57:42
+2026-06-10 20:57:42,332 INFO [epoch 3] step 100/352 | loss_classifier=0.1128 | loss_box_reg=0.1208 | loss_mask=0.2507 | loss_objectness=0.0185 | loss_rpn_box_reg=0.0107 | loss_total=0.5134
+2026-06-10 23:59:36
+2026-06-10 20:59:36,550 INFO [epoch 3] step 150/352 | loss_classifier=0.1111 | loss_box_reg=0.1196 | loss_mask=0.2520 | loss_objectness=0.0184 | loss_rpn_box_reg=0.0100 | loss_total=0.5111
+2026-06-11 00:01:34
+2026-06-10 21:01:34,081 INFO [epoch 3] step 200/352 | loss_classifier=0.1118 | loss_box_reg=0.1214 | loss_mask=0.2513 | loss_objectness=0.0186 | loss_rpn_box_reg=0.0096 | loss_total=0.5128
+2026-06-11 00:03:30
+2026-06-10 21:03:30,250 INFO [epoch 3] step 250/352 | loss_classifier=0.1117 | loss_box_reg=0.1220 | loss_mask=0.2503 | loss_objectness=0.0181 | loss_rpn_box_reg=0.0093 | loss_total=0.5113
+2026-06-11 00:05:26
+2026-06-10 21:05:26,709 INFO [epoch 3] step 300/352 | loss_classifier=0.1125 | loss_box_reg=0.1233 | loss_mask=0.2517 | loss_objectness=0.0184 | loss_rpn_box_reg=0.0095 | loss_total=0.5154
+2026-06-11 00:07:18
+2026-06-10 21:07:18,796 INFO [epoch 3] step 350/352 | loss_classifier=0.1119 | loss_box_reg=0.1230 | loss_mask=0.2512 | loss_objectness=0.0182 | loss_rpn_box_reg=0.0092 | loss_total=0.5135
+2026-06-11 00:08:55
+2026-06-10 21:08:55,145 INFO Epoch 3: train_loss=0.5134 | val_loss=0.6152 | 806.8s
+2026-06-11 00:08:55
+2026-06-10 21:08:55,687 INFO checkpoint: epoch=3, val_loss=0.6152 -> maskrcnn_cardd_best.pt
+2026-06-11 00:10:57
+2026-06-10 21:10:57,443 INFO [epoch 4] step 50/352 | loss_classifier=0.0925 | loss_box_reg=0.1069 | loss_mask=0.2224 | loss_objectness=0.0116 | loss_rpn_box_reg=0.0069 | loss_total=0.4404
+2026-06-11 00:12:54
+2026-06-10 21:12:54,898 INFO [epoch 4] step 100/352 | loss_classifier=0.0988 | loss_box_reg=0.1143 | loss_mask=0.2287 | loss_objectness=0.0131 | loss_rpn_box_reg=0.0087 | loss_total=0.4636
+2026-06-11 00:14:50
+2026-06-10 21:14:50,770 INFO [epoch 4] step 150/352 | loss_classifier=0.1018 | loss_box_reg=0.1167 | loss_mask=0.2327 | loss_objectness=0.0136 | loss_rpn_box_reg=0.0088 | loss_total=0.4736
+2026-06-11 00:16:46
+2026-06-10 21:16:46,599 INFO [epoch 4] step 200/352 | loss_classifier=0.1028 | loss_box_reg=0.1173 | loss_mask=0.2338 | loss_objectness=0.0142 | loss_rpn_box_reg=0.0089 | loss_total=0.4770
+2026-06-11 00:18:41
+2026-06-10 21:18:41,299 INFO [epoch 4] step 250/352 | loss_classifier=0.1030 | loss_box_reg=0.1179 | loss_mask=0.2341 | loss_objectness=0.0145 | loss_rpn_box_reg=0.0088 | loss_total=0.4783
+2026-06-11 00:20:36
+2026-06-10 21:20:36,147 INFO [epoch 4] step 300/352 | loss_classifier=0.1039 | loss_box_reg=0.1186 | loss_mask=0.2336 | loss_objectness=0.0144 | loss_rpn_box_reg=0.0086 | loss_total=0.4791
+2026-06-11 00:22:28
+2026-06-10 21:22:28,271 INFO [epoch 4] step 350/352 | loss_classifier=0.1029 | loss_box_reg=0.1175 | loss_mask=0.2330 | loss_objectness=0.0145 | loss_rpn_box_reg=0.0087 | loss_total=0.4766
+2026-06-11 00:24:03
+2026-06-10 21:24:03,505 INFO Epoch 4: train_loss=0.4764 | val_loss=0.6158 | 810.7s
+2026-06-11 00:26:01
+2026-06-10 21:26:01,496 INFO [epoch 5] step 50/352 | loss_classifier=0.0882 | loss_box_reg=0.1064 | loss_mask=0.2174 | loss_objectness=0.0114 | loss_rpn_box_reg=0.0085 | loss_total=0.4319
+2026-06-11 00:27:58
+2026-06-10 21:27:58,469 INFO [epoch 5] step 100/352 | loss_classifier=0.0859 | loss_box_reg=0.1055 | loss_mask=0.2176 | loss_objectness=0.0108 | loss_rpn_box_reg=0.0094 | loss_total=0.4292
+2026-06-11 00:29:52
+2026-06-10 21:29:52,147 INFO [epoch 5] step 150/352 | loss_classifier=0.0869 | loss_box_reg=0.1052 | loss_mask=0.2177 | loss_objectness=0.0110 | loss_rpn_box_reg=0.0085 | loss_total=0.4293
+2026-06-11 00:31:46
+2026-06-10 21:31:46,565 INFO [epoch 5] step 200/352 | loss_classifier=0.0910 | loss_box_reg=0.1093 | loss_mask=0.2191 | loss_objectness=0.0115 | loss_rpn_box_reg=0.0081 | loss_total=0.4390
+2026-06-11 00:33:41
+2026-06-10 21:33:41,816 INFO [epoch 5] step 250/352 | loss_classifier=0.0920 | loss_box_reg=0.1108 | loss_mask=0.2197 | loss_objectness=0.0117 | loss_rpn_box_reg=0.0080 | loss_total=0.4421
+2026-06-11 00:35:39
+2026-06-10 21:35:39,265 INFO [epoch 5] step 300/352 | loss_classifier=0.0922 | loss_box_reg=0.1110 | loss_mask=0.2208 | loss_objectness=0.0119 | loss_rpn_box_reg=0.0080 | loss_total=0.4438
+2026-06-11 00:37:33
+2026-06-10 21:37:33,218 INFO [epoch 5] step 350/352 | loss_classifier=0.0928 | loss_box_reg=0.1111 | loss_mask=0.2221 | loss_objectness=0.0121 | loss_rpn_box_reg=0.0079 | loss_total=0.4460
+2026-06-11 00:39:07
+2026-06-10 21:39:07,891 INFO Epoch 5: train_loss=0.4459 | val_loss=0.6051 | 813.9s
+2026-06-11 00:39:08
+2026-06-10 21:39:08,254 INFO checkpoint: epoch=5, val_loss=0.6051 -> maskrcnn_cardd_best.pt
+2026-06-11 00:41:12
+2026-06-10 21:41:12,789 INFO [epoch 6] step 50/352 | loss_classifier=0.0851 | loss_box_reg=0.1021 | loss_mask=0.2073 | loss_objectness=0.0101 | loss_rpn_box_reg=0.0068 | loss_total=0.4113
+2026-06-11 00:43:04
+2026-06-10 21:43:04,979 INFO [epoch 6] step 100/352 | loss_classifier=0.0852 | loss_box_reg=0.1024 | loss_mask=0.2067 | loss_objectness=0.0104 | loss_rpn_box_reg=0.0071 | loss_total=0.4117
+2026-06-11 00:45:01
+2026-06-10 21:45:01,448 INFO [epoch 6] step 150/352 | loss_classifier=0.0848 | loss_box_reg=0.1023 | loss_mask=0.2067 | loss_objectness=0.0109 | loss_rpn_box_reg=0.0072 | loss_total=0.4119
+2026-06-11 00:46:57
+2026-06-10 21:46:57,448 INFO [epoch 6] step 200/352 | loss_classifier=0.0846 | loss_box_reg=0.1030 | loss_mask=0.2069 | loss_objectness=0.0107 | loss_rpn_box_reg=0.0079 | loss_total=0.4132
+2026-06-11 00:48:53
+2026-06-10 21:48:53,171 INFO [epoch 6] step 250/352 | loss_classifier=0.0842 | loss_box_reg=0.1029 | loss_mask=0.2088 | loss_objectness=0.0107 | loss_rpn_box_reg=0.0075 | loss_total=0.4142
+2026-06-11 00:50:48
+2026-06-10 21:50:48,628 INFO [epoch 6] step 300/352 | loss_classifier=0.0843 | loss_box_reg=0.1029 | loss_mask=0.2105 | loss_objectness=0.0107 | loss_rpn_box_reg=0.0074 | loss_total=0.4158
+2026-06-11 00:52:44
+2026-06-10 21:52:44,586 INFO [epoch 6] step 350/352 | loss_classifier=0.0841 | loss_box_reg=0.1028 | loss_mask=0.2106 | loss_objectness=0.0107 | loss_rpn_box_reg=0.0072 | loss_total=0.4154
+2026-06-11 00:54:19
+2026-06-10 21:54:19,552 INFO Epoch 6: train_loss=0.4152 | val_loss=0.6186 | 812.7s
+2026-06-11 00:56:16
+2026-06-10 21:56:16,905 INFO [epoch 7] step 50/352 | loss_classifier=0.0737 | loss_box_reg=0.0990 | loss_mask=0.1983 | loss_objectness=0.0081 | loss_rpn_box_reg=0.0064 | loss_total=0.3855
+2026-06-11 00:58:11
+2026-06-10 21:58:11,695 INFO [epoch 7] step 100/352 | loss_classifier=0.0715 | loss_box_reg=0.0970 | loss_mask=0.1970 | loss_objectness=0.0081 | loss_rpn_box_reg=0.0063 | loss_total=0.3799
+2026-06-11 01:00:07
+2026-06-10 22:00:07,500 INFO [epoch 7] step 150/352 | loss_classifier=0.0747 | loss_box_reg=0.0997 | loss_mask=0.1990 | loss_objectness=0.0083 | loss_rpn_box_reg=0.0061 | loss_total=0.3879
+2026-06-11 01:02:06
+2026-06-10 22:02:06,168 INFO [epoch 7] step 200/352 | loss_classifier=0.0776 | loss_box_reg=0.1004 | loss_mask=0.2007 | loss_objectness=0.0085 | loss_rpn_box_reg=0.0072 | loss_total=0.3944
+2026-06-11 01:04:02
+2026-06-10 22:04:02,461 INFO [epoch 7] step 250/352 | loss_classifier=0.0762 | loss_box_reg=0.0988 | loss_mask=0.2012 | loss_objectness=0.0087 | loss_rpn_box_reg=0.0070 | loss_total=0.3920
+2026-06-11 01:05:52
+2026-06-10 22:05:52,929 INFO [epoch 7] step 300/352 | loss_classifier=0.0754 | loss_box_reg=0.0967 | loss_mask=0.1997 | loss_objectness=0.0088 | loss_rpn_box_reg=0.0070 | loss_total=0.3875
+2026-06-11 01:07:51
+2026-06-10 22:07:51,215 INFO [epoch 7] step 350/352 | loss_classifier=0.0758 | loss_box_reg=0.0969 | loss_mask=0.2001 | loss_objectness=0.0088 | loss_rpn_box_reg=0.0069 | loss_total=0.3885
+2026-06-11 01:09:27
+2026-06-10 22:09:27,002 INFO Epoch 7: train_loss=0.3887 | val_loss=0.6097 | 816.4s
+2026-06-11 01:11:24
+2026-06-10 22:11:24,509 INFO [epoch 8] step 50/352 | loss_classifier=0.0632 | loss_box_reg=0.0871 | loss_mask=0.1797 | loss_objectness=0.0062 | loss_rpn_box_reg=0.0050 | loss_total=0.3411
+2026-06-11 01:13:21
+2026-06-10 22:13:21,231 INFO [epoch 8] step 100/352 | loss_classifier=0.0601 | loss_box_reg=0.0829 | loss_mask=0.1816 | loss_objectness=0.0059 | loss_rpn_box_reg=0.0052 | loss_total=0.3356
+2026-06-11 01:15:14
+2026-06-10 22:15:14,159 INFO [epoch 8] step 150/352 | loss_classifier=0.0600 | loss_box_reg=0.0833 | loss_mask=0.1813 | loss_objectness=0.0061 | loss_rpn_box_reg=0.0063 | loss_total=0.3370
+2026-06-11 01:17:11
+2026-06-10 22:17:11,001 INFO [epoch 8] step 200/352 | loss_classifier=0.0612 | loss_box_reg=0.0854 | loss_mask=0.1829 | loss_objectness=0.0064 | loss_rpn_box_reg=0.0062 | loss_total=0.3420
+2026-06-11 01:19:05
+2026-06-10 22:19:05,829 INFO [epoch 8] step 250/352 | loss_classifier=0.0615 | loss_box_reg=0.0866 | loss_mask=0.1827 | loss_objectness=0.0063 | loss_rpn_box_reg=0.0062 | loss_total=0.3432
+2026-06-11 01:21:00
+2026-06-10 22:21:00,528 INFO [epoch 8] step 300/352 | loss_classifier=0.0610 | loss_box_reg=0.0862 | loss_mask=0.1826 | loss_objectness=0.0063 | loss_rpn_box_reg=0.0061 | loss_total=0.3421
+2026-06-11 01:22:56
+2026-06-10 22:22:56,475 INFO [epoch 8] step 350/352 | loss_classifier=0.0607 | loss_box_reg=0.0864 | loss_mask=0.1828 | loss_objectness=0.0062 | loss_rpn_box_reg=0.0061 | loss_total=0.3422
+2026-06-11 01:24:32
+2026-06-10 22:24:32,008 INFO Epoch 8: train_loss=0.3418 | val_loss=0.6172 | 814.0s
+2026-06-11 01:26:31
+2026-06-10 22:26:31,493 INFO [epoch 9] step 50/352 | loss_classifier=0.0516 | loss_box_reg=0.0808 | loss_mask=0.1701 | loss_objectness=0.0044 | loss_rpn_box_reg=0.0045 | loss_total=0.3114
+2026-06-11 14:07:06,644 INFO device: cuda | log: logs/maskrcnn_20260611_140706.log
+2026-06-11 14:13:05,760 INFO train: 2816 изображений,  6211 объектов -> {'dent': 1806, 'scratch': 2560, 'crack': 651, 'glass shatter': 475, 'lamp broken': 494, 'tire flat': 225}
+2026-06-11 14:13:06,038 INFO val  :  810 изображений,  1744 объектов -> {'dent': 501, 'scratch': 728, 'crack': 177, 'glass shatter': 135, 'lamp broken': 141, 'tire flat': 62}
+2026-06-11 14:13:06,069 INFO test :  374 изображений,   785 объектов -> {'dent': 236, 'scratch': 307, 'crack': 70, 'glass shatter': 71, 'lamp broken': 69, 'tire flat': 32}
+2026-06-11 14:14:14,167 INFO train: 2816, val: 810, test: 374
+2026-06-11 14:34:02,425 INFO FastRCNNPredictor(
+  (cls_score): Linear(in_features=1024, out_features=7, bias=True)
+  (bbox_pred): Linear(in_features=1024, out_features=28, bias=True)
+)
+2026-06-11 14:34:02,427 INFO MaskRCNNPredictor(
+  (conv5_mask): ConvTranspose2d(256, 256, kernel_size=(2, 2), stride=(2, 2))
+  (relu): ReLU(inplace=True)
+  (mask_fcn_logits): Conv2d(256, 7, kernel_size=(1, 1), stride=(1, 1))
+)
+=== bbox mAP (test) ===
+Loading and preparing results...
+DONE (t=0.01s)
+creating index...
+index created!
+Running per image evaluation...
+Evaluate annotation type *bbox*
+DONE (t=0.77s).
+Accumulating evaluation results...
+DONE (t=0.13s).
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.495
+ Average Precision  (AP) @[ IoU=0.50      | area=   all | maxDets=100 ] = 0.699
+ Average Precision  (AP) @[ IoU=0.75      | area=   all | maxDets=100 ] = 0.555
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.261
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.240
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.487
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=  1 ] = 0.526
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets= 10 ] = 0.640
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.650
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.374
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.436
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.652
+
+=== segmentation (mask) mAP (test) ===
+Loading and preparing results...
+DONE (t=0.01s)
+creating index...
+index created!
+Running per image evaluation...
+Evaluate annotation type *segm*
+DONE (t=0.63s).
+Accumulating evaluation results...
+DONE (t=0.13s).
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.476
+ Average Precision  (AP) @[ IoU=0.50      | area=   all | maxDets=100 ] = 0.681
+ Average Precision  (AP) @[ IoU=0.75      | area=   all | maxDets=100 ] = 0.493
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.228
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.196
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.479
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=  1 ] = 0.506
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets= 10 ] = 0.603
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.610
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.330
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.362
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.607
