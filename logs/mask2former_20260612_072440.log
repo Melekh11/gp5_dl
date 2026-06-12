@@ -1,0 +1,528 @@
+2026-06-11 07:24:40,138 INFO device: cuda | log: logs/mask2former_20260612_072440.log
+2026-06-11 07:26:26,790 INFO train: 2816 изображений,  6211 объектов -> {'dent': 1806, 'scratch': 2560, 'crack': 651, 'glass shatter': 475, 'lamp broken': 494, 'tire flat': 225}
+2026-06-11 07:26:26,852 INFO val  :  810 изображений,  1744 объектов -> {'dent': 501, 'scratch': 728, 'crack': 177, 'glass shatter': 135, 'lamp broken': 141, 'tire flat': 62}
+2026-06-11 07:26:26,879 INFO test :  374 изображений,   785 объектов -> {'dent': 236, 'scratch': 307, 'crack': 70, 'glass shatter': 71, 'lamp broken': 69, 'tire flat': 32}
+2026-06-11 07:26:30,083 INFO train: 2816 (sweep-подвыборка: 500), val: 810, test: 374
+2026-06-11 07:26:33,901 INFO pixel_values: (3, 512, 512)
+2026-06-11 07:26:33,907 INFO mask_labels:  (2, 512, 512)  (N инстансов, H, W)
+2026-06-11 07:26:33,910 INFO class_labels: [1, 5]  (ожидаем значения 0..5)
+2026-06-11 07:26:49,349 INFO freeze_mode=none                    : обучаемых 47,404,161 / 47,404,161 (100.0%)
+2026-06-11 07:26:49,370 INFO freeze_mode=backbone                : обучаемых 19,881,927 / 47,404,161 (41.9%)
+2026-06-11 07:26:49,383 INFO freeze_mode=backbone+pixel_decoder  : обучаемых 14,460,423 / 47,404,161 (30.5%)
+2026-06-11 20:25:34
+[transformers] Mask2FormerForUniversalSegmentation LOAD REPORT from: facebook/mask2former-swin-tiny-coco-instance
+2026-06-11 20:25:34
+Key                                                                                                                                | Status     |
+2026-06-11 20:25:34
+-----------------------------------------------------------------------------------------------------------------------------------+------------+----------------------------------------------------------------------------------------
+2026-06-11 20:25:34
+model.pixel_level_module.encoder.swin.encoder.layers.{0, 1, 2, 3}.blocks.{0, 1, 2, 3, 4, 5}.attention.self.relative_position_index | UNEXPECTED |
+2026-06-11 20:25:34
+model.pixel_level_module.encoder.swin.layernorm.weight                                                                             | MISSING    |
+2026-06-11 20:25:34
+model.pixel_level_module.encoder.swin.layernorm.bias                                                                               | MISSING    |
+2026-06-11 20:25:34
+class_predictor.weight                                                                                                             | MISMATCH   | Reinit due to size mismatch - ckpt: torch.Size([81, 256]) vs model:torch.Size([7, 256])
+2026-06-11 20:25:34
+criterion.empty_weight                                                                                                             | MISMATCH   | Reinit due to size mismatch - ckpt: torch.Size([81]) vs model:torch.Size([7])
+2026-06-11 20:25:34
+class_predictor.bias                                                                                                               | MISMATCH   | Reinit due to size mismatch - ckpt: torch.Size([81]) vs model:torch.Size([7])
+2026-06-11 20:25:34
+
+2026-06-11 20:25:34
+Notes:
+2026-06-11 20:25:34
+- UNEXPECTED: can be ignored when loading from different task/architecture; not ok if you expect identical arch.
+2026-06-11 20:25:34
+- MISSING: those params were newly initialized because missing from the checkpoint. Consider training on your downstream task.
+2026-06-11 20:25:34
+- MISMATCH: ckpt weights were loaded, but they did not match the original empty weight shapes.
+2026-06-11 20:26:19
+2026-06-11 17:26:19,188 INFO [epoch 1] step 50/125 | loss_total=59.7151
+2026-06-11 20:27:03
+2026-06-11 17:27:03,128 INFO [epoch 1] step 100/125 | loss_total=52.0112
+2026-06-11 20:29:53
+2026-06-11 17:29:53,907 INFO [epoch 2] step 50/125 | loss_total=38.4014
+2026-06-11 20:30:38
+2026-06-11 17:30:38,848 INFO [epoch 2] step 100/125 | loss_total=36.9105
+2026-06-11 20:33:03
+[transformers] Mask2FormerForUniversalSegmentation LOAD REPORT from: facebook/mask2former-swin-tiny-coco-instance
+2026-06-11 20:33:03
+Key                                                                                                                                | Status     |
+2026-06-11 20:33:03
+-----------------------------------------------------------------------------------------------------------------------------------+------------+----------------------------------------------------------------------------------------
+2026-06-11 20:33:03
+model.pixel_level_module.encoder.swin.encoder.layers.{0, 1, 2, 3}.blocks.{0, 1, 2, 3, 4, 5}.attention.self.relative_position_index | UNEXPECTED |
+2026-06-11 20:33:03
+model.pixel_level_module.encoder.swin.layernorm.weight                                                                             | MISSING    |
+2026-06-11 20:33:03
+model.pixel_level_module.encoder.swin.layernorm.bias                                                                               | MISSING    |
+2026-06-11 20:33:03
+class_predictor.weight                                                                                                             | MISMATCH   | Reinit due to size mismatch - ckpt: torch.Size([81, 256]) vs model:torch.Size([7, 256])
+2026-06-11 20:33:03
+criterion.empty_weight                                                                                                             | MISMATCH   | Reinit due to size mismatch - ckpt: torch.Size([81]) vs model:torch.Size([7])
+2026-06-11 20:33:03
+class_predictor.bias                                                                                                               | MISMATCH   | Reinit due to size mismatch - ckpt: torch.Size([81]) vs model:torch.Size([7])
+2026-06-11 20:33:03
+
+2026-06-11 20:33:03
+Notes:
+2026-06-11 20:33:03
+- UNEXPECTED: can be ignored when loading from different task/architecture; not ok if you expect identical arch.
+2026-06-11 20:33:03
+- MISSING: those params were newly initialized because missing from the checkpoint. Consider training on your downstream task.
+2026-06-11 20:33:03
+- MISMATCH: ckpt weights were loaded, but they did not match the original empty weight shapes.
+2026-06-11 20:33:20
+2026-06-11 17:33:20,079 INFO [epoch 1] step 50/250 | loss_total=68.0362
+2026-06-11 20:33:36
+2026-06-11 17:33:36,298 INFO [epoch 1] step 100/250 | loss_total=65.0429
+2026-06-11 20:33:52
+2026-06-11 17:33:52,949 INFO [epoch 1] step 150/250 | loss_total=63.6818
+2026-06-11 20:34:08
+2026-06-11 17:34:08,657 INFO [epoch 1] step 200/250 | loss_total=62.7282
+2026-06-11 20:34:24
+2026-06-11 17:34:24,134 INFO [epoch 1] step 250/250 | loss_total=61.3111
+2026-06-11 20:36:22
+2026-06-11 17:36:22,294 INFO [epoch 2] step 50/250 | loss_total=55.3610
+2026-06-11 20:36:38
+2026-06-11 17:36:38,015 INFO [epoch 2] step 100/250 | loss_total=56.4608
+2026-06-11 20:36:53
+2026-06-11 17:36:53,771 INFO [epoch 2] step 150/250 | loss_total=55.4845
+2026-06-11 20:37:09
+2026-06-11 17:37:09,519 INFO [epoch 2] step 200/250 | loss_total=55.4568
+2026-06-11 20:37:25
+2026-06-11 17:37:25,671 INFO [epoch 2] step 250/250 | loss_total=54.7021
+2026-06-11 20:39:27
+[transformers] Mask2FormerForUniversalSegmentation LOAD REPORT from: facebook/mask2former-swin-tiny-coco-instance
+2026-06-11 20:39:27
+Key                                                                                                                                | Status     |
+2026-06-11 20:39:27
+-----------------------------------------------------------------------------------------------------------------------------------+------------+----------------------------------------------------------------------------------------
+2026-06-11 20:39:27
+model.pixel_level_module.encoder.swin.encoder.layers.{0, 1, 2, 3}.blocks.{0, 1, 2, 3, 4, 5}.attention.self.relative_position_index | UNEXPECTED |
+2026-06-11 20:39:27
+model.pixel_level_module.encoder.swin.layernorm.weight                                                                             | MISSING    |
+2026-06-11 20:39:27
+model.pixel_level_module.encoder.swin.layernorm.bias                                                                               | MISSING    |
+2026-06-11 20:39:27
+class_predictor.weight                                                                                                             | MISMATCH   | Reinit due to size mismatch - ckpt: torch.Size([81, 256]) vs model:torch.Size([7, 256])
+2026-06-11 20:39:27
+criterion.empty_weight                                                                                                             | MISMATCH   | Reinit due to size mismatch - ckpt: torch.Size([81]) vs model:torch.Size([7])
+2026-06-11 20:39:27
+class_predictor.bias                                                                                                               | MISMATCH   | Reinit due to size mismatch - ckpt: torch.Size([81]) vs model:torch.Size([7])
+2026-06-11 20:39:27
+
+2026-06-11 20:39:27
+Notes:
+2026-06-11 20:39:27
+- UNEXPECTED: can be ignored when loading from different task/architecture; not ok if you expect identical arch.
+2026-06-11 20:39:27
+- MISSING: those params were newly initialized because missing from the checkpoint. Consider training on your downstream task.
+2026-06-11 20:39:27
+- MISMATCH: ckpt weights were loaded, but they did not match the original empty weight shapes.
+2026-06-11 20:39:43
+2026-06-11 17:39:43,890 INFO [epoch 1] step 50/250 | loss_total=68.2691
+2026-06-11 20:40:00
+2026-06-11 17:40:00,252 INFO [epoch 1] step 100/250 | loss_total=65.4171
+2026-06-11 20:40:16
+2026-06-11 17:40:16,269 INFO [epoch 1] step 150/250 | loss_total=63.4742
+2026-06-11 20:40:32
+2026-06-11 17:40:32,021 INFO [epoch 1] step 200/250 | loss_total=62.6223
+2026-06-11 20:40:47
+2026-06-11 17:40:47,520 INFO [epoch 1] step 250/250 | loss_total=61.7927
+2026-06-11 20:42:46
+2026-06-11 17:42:46,161 INFO [epoch 2] step 50/250 | loss_total=54.7881
+2026-06-11 20:43:01
+2026-06-11 17:43:01,803 INFO [epoch 2] step 100/250 | loss_total=55.6898
+2026-06-11 20:43:17
+2026-06-11 17:43:17,454 INFO [epoch 2] step 150/250 | loss_total=56.3078
+2026-06-11 20:43:33
+2026-06-11 17:43:33,116 INFO [epoch 2] step 200/250 | loss_total=55.7431
+2026-06-11 20:43:48
+2026-06-11 17:43:48,884 INFO [epoch 2] step 250/250 | loss_total=56.1521
+2026-06-11 20:45:47
+[transformers] Mask2FormerForUniversalSegmentation LOAD REPORT from: facebook/mask2former-swin-tiny-coco-instance
+2026-06-11 20:45:47
+Key                                                                                                                                | Status     |
+2026-06-11 20:45:47
+-----------------------------------------------------------------------------------------------------------------------------------+------------+----------------------------------------------------------------------------------------
+2026-06-11 20:45:47
+model.pixel_level_module.encoder.swin.encoder.layers.{0, 1, 2, 3}.blocks.{0, 1, 2, 3, 4, 5}.attention.self.relative_position_index | UNEXPECTED |
+2026-06-11 20:45:47
+model.pixel_level_module.encoder.swin.layernorm.weight                                                                             | MISSING    |
+2026-06-11 20:45:47
+model.pixel_level_module.encoder.swin.layernorm.bias                                                                               | MISSING    |
+2026-06-11 20:45:47
+class_predictor.weight                                                                                                             | MISMATCH   | Reinit due to size mismatch - ckpt: torch.Size([81, 256]) vs model:torch.Size([7, 256])
+2026-06-11 20:45:47
+criterion.empty_weight                                                                                                             | MISMATCH   | Reinit due to size mismatch - ckpt: torch.Size([81]) vs model:torch.Size([7])
+2026-06-11 20:45:47
+class_predictor.bias                                                                                                               | MISMATCH   | Reinit due to size mismatch - ckpt: torch.Size([81]) vs model:torch.Size([7])
+2026-06-11 20:45:47
+
+2026-06-11 20:45:47
+Notes:
+2026-06-11 20:45:47
+- UNEXPECTED: can be ignored when loading from different task/architecture; not ok if you expect identical arch.
+2026-06-11 20:45:47
+- MISSING: those params were newly initialized because missing from the checkpoint. Consider training on your downstream task.
+2026-06-11 20:45:47
+- MISMATCH: ckpt weights were loaded, but they did not match the original empty weight shapes.
+2026-06-11 20:46:34
+2026-06-11 17:46:34,923 INFO [epoch 1] step 50/125 | loss_total=52.4845
+2026-06-11 20:47:19
+2026-06-11 17:47:19,261 INFO [epoch 1] step 100/125 | loss_total=46.1545
+2026-06-11 20:50:10
+2026-06-11 17:50:10,101 INFO [epoch 2] step 50/125 | loss_total=34.4514
+2026-06-11 20:50:55
+2026-06-11 17:50:55,199 INFO [epoch 2] step 100/125 | loss_total=33.0823
+...
+2026-06-11 21:30:31
+[transformers] Mask2FormerForUniversalSegmentation LOAD REPORT from: facebook/mask2former-swin-tiny-coco-instance
+2026-06-11 21:30:31
+Key                                                                                                                                | Status     |
+2026-06-11 21:30:31
+-----------------------------------------------------------------------------------------------------------------------------------+------------+----------------------------------------------------------------------------------------
+2026-06-11 21:30:31
+model.pixel_level_module.encoder.swin.encoder.layers.{0, 1, 2, 3}.blocks.{0, 1, 2, 3, 4, 5}.attention.self.relative_position_index | UNEXPECTED |
+2026-06-11 21:30:31
+model.pixel_level_module.encoder.swin.layernorm.weight                                                                             | MISSING    |
+2026-06-11 21:30:31
+model.pixel_level_module.encoder.swin.layernorm.bias                                                                               | MISSING    |
+2026-06-11 21:30:31
+class_predictor.weight                                                                                                             | MISMATCH   | Reinit due to size mismatch - ckpt: torch.Size([81, 256]) vs model:torch.Size([7, 256])
+2026-06-11 21:30:31
+criterion.empty_weight                                                                                                             | MISMATCH   | Reinit due to size mismatch - ckpt: torch.Size([81]) vs model:torch.Size([7])
+2026-06-11 21:30:31
+class_predictor.bias                                                                                                               | MISMATCH   | Reinit due to size mismatch - ckpt: torch.Size([81]) vs model:torch.Size([7])
+2026-06-11 21:30:31
+
+2026-06-11 21:30:31
+Notes:
+2026-06-11 21:30:31
+- UNEXPECTED: can be ignored when loading from different task/architecture; not ok if you expect identical arch.
+2026-06-11 21:30:31
+- MISSING: those params were newly initialized because missing from the checkpoint. Consider training on your downstream task.
+2026-06-11 21:30:31
+- MISMATCH: ckpt weights were loaded, but they did not match the original empty weight shapes.
+2026-06-11 21:31:18
+2026-06-11 18:31:18,900 INFO [epoch 1] step 50/125 | loss_total=54.5527
+2026-06-11 21:32:02
+2026-06-11 18:32:02,640 INFO [epoch 1] step 100/125 | loss_total=47.0127
+2026-06-11 21:34:53
+2026-06-11 18:34:53,400 INFO [epoch 2] step 50/125 | loss_total=32.5061
+2026-06-11 21:35:37
+2026-06-11 18:35:37,957 INFO [epoch 2] step 100/125 | loss_total=32.3970
+2026-06-12 00:26:04
+2026-06-11 21:26:04,969 INFO [epoch 1] step 50/704 | loss_total=52.5913
+2026-06-12 00:26:54
+2026-06-11 21:26:54,818 INFO [epoch 1] step 100/704 | loss_total=46.5286
+2026-06-12 00:27:46
+2026-06-11 21:27:46,195 INFO [epoch 1] step 150/704 | loss_total=43.5981
+2026-06-12 00:28:36
+2026-06-11 21:28:36,739 INFO [epoch 1] step 200/704 | loss_total=41.3241
+2026-06-12 00:29:27
+2026-06-11 21:29:27,427 INFO [epoch 1] step 250/704 | loss_total=40.0318
+2026-06-12 00:30:18
+2026-06-11 21:30:18,027 INFO [epoch 1] step 300/704 | loss_total=38.8333
+2026-06-12 00:31:09
+2026-06-11 21:31:09,122 INFO [epoch 1] step 350/704 | loss_total=38.0206
+2026-06-12 00:32:00
+2026-06-11 21:32:00,049 INFO [epoch 1] step 400/704 | loss_total=37.5793
+2026-06-12 00:32:50
+2026-06-11 21:32:50,795 INFO [epoch 1] step 450/704 | loss_total=36.5001
+2026-06-12 00:33:41
+2026-06-11 21:33:41,616 INFO [epoch 1] step 500/704 | loss_total=36.1114
+2026-06-12 00:34:32
+2026-06-11 21:34:32,384 INFO [epoch 1] step 550/704 | loss_total=35.7340
+2026-06-12 00:35:22
+2026-06-11 21:35:22,895 INFO [epoch 1] step 600/704 | loss_total=35.2598
+2026-06-12 00:36:13
+2026-06-11 21:36:13,598 INFO [epoch 1] step 650/704 | loss_total=34.8993
+2026-06-12 00:37:04
+2026-06-11 21:37:04,472 INFO [epoch 1] step 700/704 | loss_total=34.4765
+2026-06-12 00:38:44
+2026-06-11 21:38:44,077 INFO Epoch 1: train_loss=34.4426 | val_loss=28.0998 | 717.7s
+2026-06-12 00:38:44
+2026-06-11 21:38:44,400 INFO checkpoint: epoch=1, val_loss=28.0998 -> mask2former_cardd_best.pt
+2026-06-12 00:39:41
+2026-06-11 21:39:41,047 INFO [epoch 2] step 50/704 | loss_total=27.7646
+2026-06-12 00:40:31
+2026-06-11 21:40:31,661 INFO [epoch 2] step 100/704 | loss_total=27.6677
+2026-06-12 00:41:22
+2026-06-11 21:41:22,301 INFO [epoch 2] step 150/704 | loss_total=27.9519
+2026-06-12 00:42:13
+2026-06-11 21:42:13,046 INFO [epoch 2] step 200/704 | loss_total=27.7571
+2026-06-12 00:43:03
+2026-06-11 21:43:03,790 INFO [epoch 2] step 250/704 | loss_total=28.4719
+2026-06-12 00:43:55
+2026-06-11 21:43:55,052 INFO [epoch 2] step 300/704 | loss_total=28.0174
+2026-06-12 00:44:45
+2026-06-11 21:44:45,858 INFO [epoch 2] step 350/704 | loss_total=28.0416
+2026-06-12 00:45:36
+2026-06-11 21:45:36,555 INFO [epoch 2] step 400/704 | loss_total=27.9233
+2026-06-12 00:46:27
+2026-06-11 21:46:27,397 INFO [epoch 2] step 450/704 | loss_total=27.8116
+2026-06-12 00:47:17
+2026-06-11 21:47:17,938 INFO [epoch 2] step 500/704 | loss_total=27.8619
+2026-06-12 00:48:08
+2026-06-11 21:48:08,551 INFO [epoch 2] step 550/704 | loss_total=27.8763
+2026-06-12 00:48:59
+2026-06-11 21:48:59,103 INFO [epoch 2] step 600/704 | loss_total=27.8220
+2026-06-12 00:49:49
+2026-06-11 21:49:49,812 INFO [epoch 2] step 650/704 | loss_total=27.8224
+2026-06-12 00:50:40
+2026-06-11 21:50:40,471 INFO [epoch 2] step 700/704 | loss_total=27.7113
+2026-06-12 00:52:19
+2026-06-11 21:52:19,990 INFO Epoch 2: train_loss=27.7252 | val_loss=27.7510 | 715.6s
+2026-06-12 00:52:20
+2026-06-11 21:52:20,408 INFO checkpoint: epoch=2, val_loss=27.7510 -> mask2former_cardd_best.pt
+2026-06-12 00:53:19
+2026-06-11 21:53:19,866 INFO [epoch 3] step 50/704 | loss_total=26.3432
+2026-06-12 00:54:10
+2026-06-11 21:54:10,258 INFO [epoch 3] step 100/704 | loss_total=26.3826
+2026-06-12 00:55:01
+2026-06-11 21:55:01,117 INFO [epoch 3] step 150/704 | loss_total=26.8913
+2026-06-12 00:55:51
+2026-06-11 21:55:51,587 INFO [epoch 3] step 200/704 | loss_total=26.7717
+2026-06-12 00:56:42
+2026-06-11 21:56:42,340 INFO [epoch 3] step 250/704 | loss_total=26.8637
+2026-06-12 00:57:32
+2026-06-11 21:57:32,864 INFO [epoch 3] step 300/704 | loss_total=26.7228
+2026-06-12 00:58:23
+2026-06-11 21:58:23,556 INFO [epoch 3] step 350/704 | loss_total=26.4344
+2026-06-12 00:59:14
+2026-06-11 21:59:14,177 INFO [epoch 3] step 400/704 | loss_total=26.3287
+2026-06-12 01:00:05
+2026-06-11 22:00:05,224 INFO [epoch 3] step 450/704 | loss_total=26.0196
+2026-06-12 01:00:55
+2026-06-11 22:00:55,961 INFO [epoch 3] step 500/704 | loss_total=25.8555
+2026-06-12 01:01:46
+2026-06-11 22:01:46,581 INFO [epoch 3] step 550/704 | loss_total=25.8518
+2026-06-12 01:02:37
+2026-06-11 22:02:37,262 INFO [epoch 3] step 600/704 | loss_total=25.7602
+2026-06-12 01:03:27
+2026-06-11 22:03:27,968 INFO [epoch 3] step 650/704 | loss_total=25.6185
+2026-06-12 01:04:18
+2026-06-11 22:04:18,816 INFO [epoch 3] step 700/704 | loss_total=25.6139
+2026-06-12 01:05:58
+2026-06-11 22:05:58,411 INFO Epoch 3: train_loss=25.6243 | val_loss=25.4265 | 714.6s
+2026-06-12 01:05:58
+2026-06-11 22:05:58,751 INFO checkpoint: epoch=3, val_loss=25.4265 -> mask2former_cardd_best.pt
+2026-06-12 01:06:58
+2026-06-11 22:06:58,111 INFO [epoch 4] step 50/704 | loss_total=22.8138
+2026-06-12 01:07:48
+2026-06-11 22:07:48,706 INFO [epoch 4] step 100/704 | loss_total=22.2970
+2026-06-12 01:08:39
+2026-06-11 22:08:39,591 INFO [epoch 4] step 150/704 | loss_total=21.9657
+2026-06-12 01:09:30
+2026-06-11 22:09:30,435 INFO [epoch 4] step 200/704 | loss_total=21.7645
+2026-06-12 01:10:21
+2026-06-11 22:10:21,175 INFO [epoch 4] step 250/704 | loss_total=21.7792
+2026-06-12 01:11:11
+2026-06-11 22:11:11,950 INFO [epoch 4] step 300/704 | loss_total=21.7834
+2026-06-12 01:12:02
+2026-06-11 22:12:02,577 INFO [epoch 4] step 350/704 | loss_total=21.6434
+2026-06-12 01:12:52
+2026-06-11 22:12:52,893 INFO [epoch 4] step 400/704 | loss_total=21.4565
+2026-06-12 01:13:43
+2026-06-11 22:13:43,631 INFO [epoch 4] step 450/704 | loss_total=21.3534
+2026-06-12 01:14:34
+2026-06-11 22:14:34,239 INFO [epoch 4] step 500/704 | loss_total=21.3026
+2026-06-12 01:15:24
+2026-06-11 22:15:24,871 INFO [epoch 4] step 550/704 | loss_total=21.2474
+2026-06-12 01:16:15
+2026-06-11 22:16:15,828 INFO [epoch 4] step 600/704 | loss_total=21.2273
+2026-06-12 01:17:06
+2026-06-11 22:17:06,590 INFO [epoch 4] step 650/704 | loss_total=21.1390
+2026-06-12 01:17:57
+2026-06-11 22:17:57,275 INFO [epoch 4] step 700/704 | loss_total=21.1616
+2026-06-12 01:19:36
+2026-06-11 22:19:36,980 INFO Epoch 4: train_loss=21.1483 | val_loss=22.4002 | 714.8s
+2026-06-12 01:19:37
+2026-06-11 22:19:37,680 INFO checkpoint: epoch=4, val_loss=22.4002 -> mask2former_cardd_best.pt
+2026-06-12 01:20:40
+2026-06-11 22:20:40,928 INFO [epoch 5] step 50/704 | loss_total=19.1920
+2026-06-12 01:21:31
+2026-06-11 22:21:31,319 INFO [epoch 5] step 100/704 | loss_total=18.7019
+2026-06-12 01:22:22
+2026-06-11 22:22:22,086 INFO [epoch 5] step 150/704 | loss_total=19.0487
+2026-06-12 01:23:12
+2026-06-11 22:23:12,692 INFO [epoch 5] step 200/704 | loss_total=19.0303
+2026-06-12 01:24:03
+2026-06-11 22:24:03,430 INFO [epoch 5] step 250/704 | loss_total=19.0738
+2026-06-12 01:24:54
+2026-06-11 22:24:54,200 INFO [epoch 5] step 300/704 | loss_total=19.0813
+2026-06-12 01:25:44
+2026-06-11 22:25:44,965 INFO [epoch 5] step 350/704 | loss_total=19.1081
+2026-06-12 01:26:35
+2026-06-11 22:26:35,753 INFO [epoch 5] step 400/704 | loss_total=19.2509
+2026-06-12 01:27:26
+2026-06-11 22:27:26,574 INFO [epoch 5] step 450/704 | loss_total=19.2391
+2026-06-12 01:28:17
+2026-06-11 22:28:17,254 INFO [epoch 5] step 500/704 | loss_total=19.1001
+2026-06-12 01:29:08
+2026-06-11 22:29:08,046 INFO [epoch 5] step 550/704 | loss_total=19.0202
+2026-06-12 01:29:58
+2026-06-11 22:29:58,727 INFO [epoch 5] step 600/704 | loss_total=19.0699
+2026-06-12 01:30:49
+2026-06-11 22:30:49,386 INFO [epoch 5] step 650/704 | loss_total=19.0662
+2026-06-12 01:31:39
+2026-06-11 22:31:39,897 INFO [epoch 5] step 700/704 | loss_total=19.0592
+2026-06-12 01:33:19
+2026-06-11 22:33:19,210 INFO Epoch 5: train_loss=19.0178 | val_loss=22.4887 | 715.7s
+2026-06-12 01:34:10
+2026-06-11 22:34:10,313 INFO [epoch 6] step 50/704 | loss_total=18.6191
+2026-06-12 01:35:01
+2026-06-11 22:35:01,351 INFO [epoch 6] step 100/704 | loss_total=18.2956
+2026-06-12 01:35:51
+2026-06-11 22:35:51,944 INFO [epoch 6] step 150/704 | loss_total=18.2526
+2026-06-12 01:36:42
+2026-06-11 22:36:42,667 INFO [epoch 6] step 200/704 | loss_total=17.8461
+2026-06-12 01:37:33
+2026-06-11 22:37:33,279 INFO [epoch 6] step 250/704 | loss_total=17.7894
+2026-06-12 01:38:23
+2026-06-11 22:38:23,885 INFO [epoch 6] step 300/704 | loss_total=17.8553
+2026-06-12 01:39:14
+2026-06-11 22:39:14,521 INFO [epoch 6] step 350/704 | loss_total=17.7498
+2026-06-12 01:40:05
+2026-06-11 22:40:05,173 INFO [epoch 6] step 400/704 | loss_total=17.6867
+2026-06-12 01:40:55
+2026-06-11 22:40:55,761 INFO [epoch 6] step 450/704 | loss_total=17.5418
+2026-06-12 01:41:46
+2026-06-11 22:41:46,524 INFO [epoch 6] step 500/704 | loss_total=17.6183
+2026-06-12 01:42:37
+2026-06-11 22:42:37,114 INFO [epoch 6] step 550/704 | loss_total=17.5275
+2026-06-12 01:43:27
+2026-06-11 22:43:27,907 INFO [epoch 6] step 600/704 | loss_total=17.5373
+2026-06-12 01:44:18
+2026-06-11 22:44:18,738 INFO [epoch 6] step 650/704 | loss_total=17.5767
+2026-06-12 01:45:09
+2026-06-11 22:45:09,398 INFO [epoch 6] step 700/704 | loss_total=17.5681
+2026-06-12 01:46:49
+2026-06-11 22:46:49,302 INFO Epoch 6: train_loss=17.5798 | val_loss=21.5872 | 714.2s
+2026-06-12 01:46:49
+2026-06-11 22:46:49,641 INFO checkpoint: epoch=6, val_loss=21.5872 -> mask2former_cardd_best.pt
+2026-06-12 01:47:42
+2026-06-11 22:47:42,739 INFO [epoch 7] step 50/704 | loss_total=15.7607
+2026-06-12 01:48:33
+2026-06-11 22:48:33,248 INFO [epoch 7] step 100/704 | loss_total=15.6751
+2026-06-12 01:49:24
+2026-06-11 22:49:24,019 INFO [epoch 7] step 150/704 | loss_total=15.6217
+2026-06-12 01:50:14
+2026-06-11 22:50:14,679 INFO [epoch 7] step 200/704 | loss_total=15.8779
+2026-06-12 01:51:05
+2026-06-11 22:51:05,186 INFO [epoch 7] step 250/704 | loss_total=15.7960
+2026-06-12 01:51:55
+2026-06-11 22:51:55,821 INFO [epoch 7] step 300/704 | loss_total=15.5284
+2026-06-12 01:52:46
+2026-06-11 22:52:46,665 INFO [epoch 7] step 350/704 | loss_total=15.5902
+2026-06-12 01:53:37
+2026-06-11 22:53:37,376 INFO [epoch 7] step 400/704 | loss_total=15.4411
+2026-06-12 01:54:28
+2026-06-11 22:54:28,087 INFO [epoch 7] step 450/704 | loss_total=15.3711
+2026-06-12 01:55:18
+2026-06-11 22:55:18,794 INFO [epoch 7] step 500/704 | loss_total=15.3735
+2026-06-12 01:56:09
+2026-06-11 22:56:09,391 INFO [epoch 7] step 550/704 | loss_total=15.4581
+2026-06-12 01:57:00
+2026-06-11 22:57:00,159 INFO [epoch 7] step 600/704 | loss_total=15.4839
+2026-06-12 01:57:50
+2026-06-11 22:57:50,822 INFO [epoch 7] step 650/704 | loss_total=15.4091
+2026-06-12 01:58:41
+2026-06-11 22:58:41,810 INFO [epoch 7] step 700/704 | loss_total=15.5024
+2026-06-12 02:00:21
+2026-06-11 23:00:21,344 INFO Epoch 7: train_loss=15.5054 | val_loss=20.7867 | 714.5s
+2026-06-12 02:00:27
+2026-06-11 23:00:27,037 INFO checkpoint: epoch=7, val_loss=20.7867 -> mask2former_cardd_best.pt
+2026-06-12 02:01:26
+2026-06-11 23:01:26,406 INFO [epoch 8] step 50/704 | loss_total=14.6226
+2026-06-12 02:02:16
+2026-06-11 23:02:16,597 INFO [epoch 8] step 100/704 | loss_total=14.2000
+2026-06-12 02:03:07
+2026-06-11 23:03:07,314 INFO [epoch 8] step 150/704 | loss_total=13.8311
+2026-06-12 02:03:58
+2026-06-11 23:03:58,005 INFO [epoch 8] step 200/704 | loss_total=13.9870
+2026-06-12 02:04:48
+2026-06-11 23:04:48,904 INFO [epoch 8] step 250/704 | loss_total=14.1686
+2026-06-12 02:05:39
+2026-06-11 23:05:39,684 INFO [epoch 8] step 300/704 | loss_total=14.2616
+2026-06-12 02:06:30
+2026-06-11 23:06:30,332 INFO [epoch 8] step 350/704 | loss_total=14.3686
+2026-06-12 02:07:20
+2026-06-11 23:07:20,962 INFO [epoch 8] step 400/704 | loss_total=14.2697
+2026-06-12 02:08:11
+2026-06-11 23:08:11,842 INFO [epoch 8] step 450/704 | loss_total=14.2529
+2026-06-12 02:09:02
+2026-06-11 23:09:02,497 INFO [epoch 8] step 500/704 | loss_total=14.3012
+2026-06-12 02:09:52
+2026-06-11 23:09:52,950 INFO [epoch 8] step 550/704 | loss_total=14.3029
+2026-06-12 02:10:43
+2026-06-11 23:10:43,898 INFO [epoch 8] step 600/704 | loss_total=14.4309
+2026-06-12 02:11:34
+2026-06-11 23:11:34,566 INFO [epoch 8] step 650/704 | loss_total=14.4142
+2026-06-12 02:12:25
+2026-06-11 23:12:25,127 INFO [epoch 8] step 700/704 | loss_total=14.4659
+2026-06-12 02:14:04
+2026-06-11 23:14:04,740 INFO Epoch 8: train_loss=14.4732 | val_loss=21.1531 | 715.2s
+2026-06-12 02:14:55
+2026-06-11 23:14:55,928 INFO [epoch 9] step 50/704 | loss_total=13.0677
+2026-06-12 02:15:46
+2026-06-11 23:15:46,779 INFO [epoch 9] step 100/704 | loss_total=13.5309
+2026-06-12 02:16:37
+2026-06-11 23:16:37,681 INFO [epoch 9] step 150/704 | loss_total=13.7848
+2026-06-12 02:17:28
+2026-06-11 23:17:28,636 INFO [epoch 9] step 200/704 | loss_total=13.9276
+2026-06-12 02:18:19
+2026-06-11 23:18:19,597 INFO [epoch 9] step 250/704 | loss_total=13.8477
+2026-06-12 02:19:10
+2026-06-11 23:19:10,492 INFO [epoch 9] step 300/704 | loss_total=13.8197
+2026-06-12 02:20:01
+2026-06-11 23:20:01,054 INFO [epoch 9] step 350/704 | loss_total=13.6207
+2026-06-12 05:47:24,185 INFO всего предсказаний: 3259
+=== bbox mAP (test) ===
+Loading and preparing results...
+DONE (t=0.00s)
+creating index...
+index created!
+Running per image evaluation...
+Evaluate annotation type *bbox*
+DONE (t=0.35s).
+Accumulating evaluation results...
+DONE (t=0.09s).
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.583
+ Average Precision  (AP) @[ IoU=0.50      | area=   all | maxDets=100 ] = 0.744
+ Average Precision  (AP) @[ IoU=0.75      | area=   all | maxDets=100 ] = 0.604
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.201
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.303
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.601
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=  1 ] = 0.591
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets= 10 ] = 0.710
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.711
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.238
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.510
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.732
+
+=== segmentation (mask) mAP (test) ===
+Loading and preparing results...
+DONE (t=0.00s)
+creating index...
+index created!
+Running per image evaluation...
+Evaluate annotation type *segm*
+DONE (t=0.43s).
+Accumulating evaluation results...
+DONE (t=0.10s).
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.558
+ Average Precision  (AP) @[ IoU=0.50      | area=   all | maxDets=100 ] = 0.735
+ Average Precision  (AP) @[ IoU=0.75      | area=   all | maxDets=100 ] = 0.559
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.160
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.244
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.582
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=  1 ] = 0.566
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets= 10 ] = 0.660
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.660
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.183
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.408
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.688
