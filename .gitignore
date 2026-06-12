@@ -1,0 +1,13 @@
+.DS_Store
+venv
+__pycache__
+data/car_clear_generated
+data/car_clear_parsed
+data/CarDD_release
+data/driver_conditions
+data/duplicates_backup
+cardd_dataset.py
+dataset_description.md
+scraper.py
+data/CarDD_release/CarDD_COCO.zip
+.env
