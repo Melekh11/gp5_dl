@@ -11,3 +11,4 @@ dataset_description.md
 scraper.py
 data/CarDD_release/CarDD_COCO.zip
 .env
+wandb/
