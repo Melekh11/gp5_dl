@@ -1,0 +1,54 @@
+2026-06-16 00:34:45,519 INFO device: cuda | log: logs/mask2former_20260616_003445.log
+2026-06-16 00:36:45,334 INFO test: 374 изображений, 785 объектов
+2026-06-16 00:40:53,630 INFO Mask R-CNN: /content/artifacts/maskrcnn_cardd_epoch5:v1/maskrcnn_cardd_best.pt
+2026-06-16 00:41:05,914 INFO Mask2Former: /content/artifacts/mask2former_cardd_epoch7:v0/mask2former_cardd_best.pt
+2026-06-16 00:41:07,211 INFO YOLOv8: /content/artifacts/yolov8_results:v0/weights/best.pt
+2026-06-16 00:41:43,003 INFO Mask R-CNN: загружен (best epoch 5, val_loss 0.6051)
+2026-06-16 00:41:49,178 INFO Mask2Former: загружен (best epoch 7, val_loss 20.7867)
+2026-06-16 00:46:17,865 INFO Mask R-CNN: загружен (best epoch 5, val_loss 0.6051)
+2026-06-16 00:46:19,120 INFO Mask2Former: загружен (best epoch 7, val_loss 20.7867)
+2026-06-16 00:46:19,596 INFO YOLOv8: загружен (best epoch -1)
+2026-06-16 00:49:44,239 INFO Mask R-CNN: загружен (best epoch 5, val_loss 0.6051)
+2026-06-16 00:49:45,765 INFO Mask2Former: загружен (best epoch 7, val_loss 20.7867)
+2026-06-16 00:50:12,456 INFO Mask R-CNN: загружен (best epoch 5, val_loss 0.6051)
+2026-06-16 00:50:13,678 INFO Mask2Former: загружен (best epoch 7, val_loss 20.7867)
+2026-06-16 00:50:51,178 INFO Mask R-CNN: загружен (best epoch 5, val_loss 0.6051)
+2026-06-16 00:50:52,573 INFO Mask2Former: загружен (best epoch 7, val_loss 20.7867)
+2026-06-16 00:51:58,722 INFO Mask R-CNN: загружен (best epoch 5, val_loss 0.6051)
+2026-06-16 00:51:59,918 INFO Mask2Former: загружен (best epoch 7, val_loss 20.7867)
+2026-06-16 00:52:00,013 INFO YOLOv8: загружен (best epoch -1)
+2026-06-16 01:01:11,887 INFO Mask R-CNN: загружен (best epoch 5, val_loss 0.6051)
+2026-06-16 01:01:13,513 INFO Mask2Former: загружен (best epoch 7, val_loss 20.7867)
+2026-06-16 01:01:13,620 INFO YOLOv8: загружен (best epoch -1), val_loss 20.7867)
+2026-06-16 01:02:22,390 INFO Mask R-CNN: загружен (best epoch 5, val_loss 0.6051)
+2026-06-16 01:02:23,636 INFO Mask2Former: загружен (best epoch 7, val_loss 20.7867)
+2026-06-16 01:02:47,483 INFO Mask R-CNN: загружен (best epoch 5, val_loss 0.6051)
+2026-06-16 01:02:50,355 INFO Mask2Former: загружен (best epoch 7, val_loss 20.7867)
+2026-06-16 01:02:50,479 INFO YOLOv8: загружен (best epoch 29), val_loss 2.1846)
+2026-06-16 01:34:44,344 INFO   Mask R-CNN: 100/374
+2026-06-16 01:35:03,736 INFO   Mask R-CNN: 200/374
+2026-06-16 01:35:22,469 INFO   Mask R-CNN: 300/374
+2026-06-16 01:35:36,078 INFO Mask R-CNN: 5656 предсказаний за 72s
+2026-06-16 01:35:58,445 INFO   Mask2Former: 100/374
+2026-06-16 01:36:18,784 INFO   Mask2Former: 200/374
+2026-06-16 01:36:39,622 INFO   Mask2Former: 300/374
+2026-06-16 01:36:54,199 INFO Mask2Former: 3259 предсказаний за 78s
+2026-06-16 01:36:58,320 INFO   YOLOv8: 100/374
+2026-06-16 01:37:02,662 INFO   YOLOv8: 200/374
+2026-06-16 01:37:06,845 INFO   YOLOv8: 300/374
+2026-06-16 01:37:09,422 INFO YOLOv8: 2322 предсказаний за 15s
+2026-06-16 01:37:30,708 INFO 
+===== Mask R-CNN | bbox =====
+2026-06-16 01:37:31,724 INFO 
+===== Mask2Former | bbox =====
+2026-06-16 01:37:32,208 INFO 
+===== YOLOv8 | bbox =====
+2026-06-16 01:37:32,643 INFO 
+===== Mask R-CNN | segm =====
+2026-06-16 01:37:33,407 INFO 
+===== Mask2Former | segm =====
+2026-06-16 01:37:33,915 INFO 
+===== YOLOv8 | segm =====
+2026-06-16 01:37:34,397 INFO 
+=== bbox ===
+2026-06-16 01:37:34,410 INFO === segm ===
